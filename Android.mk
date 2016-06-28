@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := power.amlogic
+LOCAL_MODULE := power.$(TARGET_PRODUCT)
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_SRC_FILES := power.c
 LOCAL_SHARED_LIBRARIES := liblog
