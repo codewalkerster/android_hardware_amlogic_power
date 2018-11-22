@@ -26,7 +26,7 @@ LOCAL_C_INCLUDES += \
 	system/core/libutils/include \
 	system/core/libsystem/include
 
-LOCAL_MODULE := power.amlogic
+LOCAL_MODULE := power.$(TARGET_PRODUCT)
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := power.cpp
 LOCAL_SHARED_LIBRARIES := liblog
